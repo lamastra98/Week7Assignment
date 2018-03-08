@@ -20,7 +20,7 @@
 
 	$myQuery = $conn -> query("SELECT * FROM `accounts` WHERE id < 6");
 
-	echo "<table><tr><th>ID</th><th>E-Mail</th></tr>";
+	echo "<table border='1'><tr><th>ID</th><th>E-Mail</th></tr>";
 	while($row = $myQuery->fetch())
 	{
 		echo "<tr>";
