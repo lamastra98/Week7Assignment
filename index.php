@@ -16,7 +16,7 @@
 	}
 
 	$nRows = $conn->query("SELECT count(*) FROM `accounts` WHERE id < 6")->fetchColumn(); 
-	echo $nRows." rows selected.";
+	echo $nRows." rows selected.<br>";
 
 	$myQuery = $conn -> query("SELECT * FROM `accounts` WHERE id < 6");
 
